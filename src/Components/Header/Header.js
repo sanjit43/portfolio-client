@@ -13,6 +13,7 @@ const Header = () => {
                         <Link className='text-decoration-none text-white fs-5 fw-bold m-2' to="/home">Home</Link>
                         <Link className='text-decoration-none text-white fs-5 fw-bold m-2' to='/work'>Work History</Link>
                         <Link className='text-decoration-none text-white fs-5 fw-bold m-2' to='/about'>About Me</Link>
+                        <Link className='text-decoration-none text-white fs-5 fw-bold m-2' to='/contact'>Contact Me</Link>
                     </Nav>
                 </Container>
             </Navbar>

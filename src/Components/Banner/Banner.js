@@ -15,7 +15,7 @@ const Banner = () => {
                     <div className='col col-sm-12 col-md-12 col-lg-6'>
                         <h3 className='mt-5 p-2'>I have completed some exceptional projects for my practice purpose. And it is fully responsive, custom designed.</h3>
                         <div>
-                            <a href='https://drive.google.com/file/d/15dFszf080tVWY1HWkZxYCzUTb0RsnnFR/view?usp=sharing'><button type='button' className='btn btn-info text-center'>See My Resume</button></a>
+                            <a href='https://drive.google.com/file/d/15dFszf080tVWY1HWkZxYCzUTb0RsnnFR/view?usp=sharing' target="_blank"><button type='button' className='btn btn-info text-center'>See My Resume</button></a>
                         </div>
                     </div>
                 </div>
