@@ -1,5 +1,6 @@
 import React from 'react';
 import picture from '../../images/about.jpg'
+import Header from '../Header/Header';
 
 const About = () => {
     return (
