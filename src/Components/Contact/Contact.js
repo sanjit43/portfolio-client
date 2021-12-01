@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='mt-5'>
+        <div className='mt-5' id='contact'>
             <h3 className='text-center'>Contact Me</h3>
             <form className='text-center' action="https://formsubmit.co/sanjitsarker257@gmail.com" method="POST">
                 <input type="hidden" name="_subject" value="New Email Yoooo" />

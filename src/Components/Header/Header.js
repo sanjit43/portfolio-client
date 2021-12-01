@@ -5,15 +5,15 @@ import logo from '../../images/icon.png'
 
 const Header = () => {
     return (
-        <div>
+        <div id='home'>
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href='/'> <img src={logo} alt=''></img> </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Link className='text-decoration-none text-white fs-5 fw-bold m-2' to="/home">Home</Link>
-                        <Link className='text-decoration-none text-white fs-5 fw-bold m-2' to='/work'>Work History</Link>
-                        <Link className='text-decoration-none text-white fs-5 fw-bold m-2' to='/about'>About Me</Link>
-                        <Link className='text-decoration-none text-white fs-5 fw-bold m-2' to='/contact'>Contact Me</Link>
+                        <a className='text-decoration-none text-white fs-5 fw-bold m-2' href="#home">Home</a>
+                        <a className='text-decoration-none text-white fs-5 fw-bold m-2' href='#work'>Work History</a>
+                        <a className='text-decoration-none text-white fs-5 fw-bold m-2' href='#about'>About Me</a>
+                        <a className='text-decoration-none text-white fs-5 fw-bold m-2' href='#contact'>Contact Me</a>
                     </Nav>
                 </Container>
             </Navbar>

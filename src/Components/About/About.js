@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 
 const About = () => {
     return (
-        <div className='mt-5 container bg-primary p-3'>
+        <div className='mt-5 container bg-primary p-3' id='about'>
             <h2 className='text-center mb-5'>About Me</h2>
             <div className='row'>
                 <div className='col col-sm-12 col-md-12 col-lg-6'>

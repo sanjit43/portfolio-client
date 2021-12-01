@@ -12,7 +12,7 @@ import Thanks from "./Components/ThanksPage/Thanks";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home></Home>} />
         </Routes>
@@ -31,7 +31,15 @@ function App() {
         <Routes>
           <Route path='thanks' element={<Thanks></Thanks>} />
         </Routes>
+      </BrowserRouter> */}
+      <BrowserRouter>
+        <Home></Home>
+        {/* <Mywork></Mywork>
+        <About></About>
+        <Contact></Contact>
+        <Thanks></Thanks> */}
       </BrowserRouter>
+
     </div>
   );
 }

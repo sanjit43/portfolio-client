@@ -11,7 +11,7 @@ const Mywork = () => {
             .then(data => setProjects(data))
     }, [])
     return (
-        <div className='container'>
+        <div className='container' id='work'>
             <h2 className='text-center'>My Recent Work</h2>
             <p className='text-center'>Here are a few design projects I've worked on recently. </p>
             <div className='row'>
