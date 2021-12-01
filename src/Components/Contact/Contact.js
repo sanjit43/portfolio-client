@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, [])
     return (
-        <div className='mt-5' id='contact'>
+        <div data-AOS="fade-up" className='mt-5' id='contact'>
             <h3 className='text-center'>Contact Me</h3>
             <form className='text-center' action="https://formsubmit.co/sanjitsarker257@gmail.com" method="POST">
                 <input type="hidden" name="_subject" value="New Email Yoooo" />
