@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import logo from '../../images/icon.png'
 
 const Header = () => {
